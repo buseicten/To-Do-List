@@ -1,0 +1,117 @@
+body
+{
+    /*width:300px;
+    border:4px solid palevioletred;
+    border-radius: 20px;
+    margin: 0 auto;*/
+    padding-left: 10px;
+    margin-top:10px;
+    background: #ddd6f3; 
+    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3); 
+    background: linear-gradient(to right, #faaca8, #ddd6f3);
+    font-family: 'Indie Flower', cursive;
+}
+.finish
+{
+    color: gray;
+    text-decoration: line-through;
+}
+.header
+{
+    color: rgb(182, 159, 209);
+    background:rgb(109, 70, 109);
+    margin: 0px;
+    padding:10px 20px;
+    font-size:25px;
+    border-radius: 10px;
+}
+ul
+{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+ul li
+{
+    background:rgb(157, 143, 167);
+    color: rgb(56,47,92);
+    font-weight: bold;
+    word-wrap:break-word;
+    height:40px;
+    line-height:30px;
+    padding-left:10px;
+    padding-top:10px;
+}
+.write
+{
+    font-family: 'Indie Flower', cursive;
+    height: 30px;
+    width: 100%;
+    font-size:18px;
+    color: rgb(38, 3, 78);
+    font-weight: bold;
+    border: pink;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.del
+{
+    text-decoration: underline;
+    float: right;
+    padding-right:20px;
+    color: rgb(95, 58, 138);
+    background:rgb(38,3,78);
+    height:30px;
+    margin-right:20px;
+    text-align:center;
+    width:0;
+    transition: 0.4s linear;
+    padding-left:5px;
+    padding-top:2px;
+    margin-top:4px;
+    border-radius: 5px;
+    display:inline-block;
+    opacity:0;
+}
+.fa-pencil-alt
+{
+    float:right;
+    padding-top:5px;
+}
+li:nth-child(2n)
+{
+    background: rgb(56, 47, 92);
+    color: rgb(157,143,167);
+    
+}
+li:hover span
+{
+    opacity:1.0;
+    width:0px;
+}
+.container
+{
+    width:350px;
+    margin: 100px auto;
+    box-shadow: 5px 5px 5px 2px rgba(128,128,128,0.5);
+    border:4px solid palevioletred;
+    border-radius: 20px;
+    padding: 50px;
+}
+li:first-child
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+li:last-child
+{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+input:focus
+{
+    background:#fff;
+    border:3px solid rgb(56,47,92);
+    border-radius: 10px;
+}
